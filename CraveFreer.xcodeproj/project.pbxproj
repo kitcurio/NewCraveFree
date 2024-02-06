@@ -22,6 +22,10 @@
 		648656FA2B727B6000D2AC2E /* Asap-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F62B727B6000D2AC2E /* Asap-Bold.otf */; };
 		648656FB2B727B6000D2AC2E /* Asap-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F72B727B6000D2AC2E /* Asap-Regular.otf */; };
 		648656FC2B727B6000D2AC2E /* Asap-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F82B727B6000D2AC2E /* Asap-BoldItalic.otf */; };
+		648656FD2B727C5500D2AC2E /* Asap-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F62B727B6000D2AC2E /* Asap-Bold.otf */; };
+		648656FE2B727C6900D2AC2E /* Asap-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F82B727B6000D2AC2E /* Asap-BoldItalic.otf */; };
+		648656FF2B727C6B00D2AC2E /* Asap-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F52B727B6000D2AC2E /* Asap-Italic.otf */; };
+		648657002B727C6D00D2AC2E /* Asap-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F72B727B6000D2AC2E /* Asap-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -251,7 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				648657002B727C6D00D2AC2E /* Asap-Regular.otf in Resources */,
 				648656D02B71ACF100D2AC2E /* Assets.xcassets in Resources */,
+				648656FE2B727C6900D2AC2E /* Asap-BoldItalic.otf in Resources */,
+				648656FF2B727C6B00D2AC2E /* Asap-Italic.otf in Resources */,
+				648656FD2B727C5500D2AC2E /* Asap-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
