@@ -18,14 +18,6 @@
 		648656D02B71ACF100D2AC2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648656CF2B71ACF100D2AC2E /* Assets.xcassets */; };
 		648656D42B71ACF100D2AC2E /* WidgetyExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 648656C42B71ACF000D2AC2E /* WidgetyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		648656DB2B71AD4200D2AC2E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648656D92B71AD3700D2AC2E /* DataService.swift */; };
-		648656F92B727B6000D2AC2E /* Asap-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F52B727B6000D2AC2E /* Asap-Italic.otf */; };
-		648656FA2B727B6000D2AC2E /* Asap-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F62B727B6000D2AC2E /* Asap-Bold.otf */; };
-		648656FB2B727B6000D2AC2E /* Asap-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F72B727B6000D2AC2E /* Asap-Regular.otf */; };
-		648656FC2B727B6000D2AC2E /* Asap-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F82B727B6000D2AC2E /* Asap-BoldItalic.otf */; };
-		648656FD2B727C5500D2AC2E /* Asap-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F62B727B6000D2AC2E /* Asap-Bold.otf */; };
-		648656FE2B727C6900D2AC2E /* Asap-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F82B727B6000D2AC2E /* Asap-BoldItalic.otf */; };
-		648656FF2B727C6B00D2AC2E /* Asap-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F52B727B6000D2AC2E /* Asap-Italic.otf */; };
-		648657002B727C6D00D2AC2E /* Asap-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656F72B727B6000D2AC2E /* Asap-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,10 +61,14 @@
 		648656DC2B71ADBF00D2AC2E /* WidgetyExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetyExtension.entitlements; sourceTree = "<group>"; };
 		648656DD2B71ADC900D2AC2E /* CraveFreer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CraveFreer.entitlements; sourceTree = "<group>"; };
 		648656DE2B71AEBE00D2AC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		648656F52B727B6000D2AC2E /* Asap-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Italic.otf"; path = "../../../Downloads/asap/Asap-Italic.otf"; sourceTree = "<group>"; };
-		648656F62B727B6000D2AC2E /* Asap-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Bold.otf"; path = "../../../Downloads/asap/Asap-Bold.otf"; sourceTree = "<group>"; };
-		648656F72B727B6000D2AC2E /* Asap-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Regular.otf"; path = "../../../Downloads/asap/Asap-Regular.otf"; sourceTree = "<group>"; };
-		648656F82B727B6000D2AC2E /* Asap-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-BoldItalic.otf"; path = "../../../Downloads/asap/Asap-BoldItalic.otf"; sourceTree = "<group>"; };
+		648657022B727E1000D2AC2E /* Asap-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Bold.otf"; path = "../../../.Trash/Asap-Bold.otf"; sourceTree = "<group>"; };
+		648657032B727E1000D2AC2E /* Asap-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Italic.otf"; path = "../../../.Trash/Asap-Italic.otf"; sourceTree = "<group>"; };
+		648657042B727E1000D2AC2E /* Asap-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-BoldItalic.otf"; path = "../../../.Trash/Asap-BoldItalic.otf"; sourceTree = "<group>"; };
+		648657052B727E1000D2AC2E /* Asap-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Regular.otf"; path = "../../../.Trash/Asap-Regular.otf"; sourceTree = "<group>"; };
+		648657072B727E6C00D2AC2E /* Asap-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Regular.otf"; sourceTree = "<group>"; };
+		648657082B727E6C00D2AC2E /* Asap-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Italic.otf"; sourceTree = "<group>"; };
+		648657092B727E6C00D2AC2E /* Asap-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Bold.otf"; sourceTree = "<group>"; };
+		6486570A2B727E6C00D2AC2E /* Asap-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-BoldItalic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +94,6 @@
 		648656A62B71AC3200D2AC2E = {
 			isa = PBXGroup;
 			children = (
-				648656F62B727B6000D2AC2E /* Asap-Bold.otf */,
-				648656F82B727B6000D2AC2E /* Asap-BoldItalic.otf */,
-				648656F52B727B6000D2AC2E /* Asap-Italic.otf */,
-				648656F72B727B6000D2AC2E /* Asap-Regular.otf */,
 				648656DC2B71ADBF00D2AC2E /* WidgetyExtension.entitlements */,
 				648656B12B71AC3200D2AC2E /* CraveFreer */,
 				648656B62B71AC3300D2AC2E /* Assets.xcassets */,
@@ -126,6 +118,7 @@
 				648656DE2B71AEBE00D2AC2E /* Info.plist */,
 				648656DD2B71ADC900D2AC2E /* CraveFreer.entitlements */,
 				648656B22B71AC3200D2AC2E /* CraveFreerApp.swift */,
+				648657062B727E5700D2AC2E /* New Group */,
 				648656B42B71AC3200D2AC2E /* ContentView.swift */,
 				648656B82B71AC3300D2AC2E /* Preview Content */,
 			);
@@ -145,6 +138,10 @@
 			children = (
 				648656C62B71ACF000D2AC2E /* WidgetKit.framework */,
 				648656C82B71ACF000D2AC2E /* SwiftUI.framework */,
+				648657022B727E1000D2AC2E /* Asap-Bold.otf */,
+				648657042B727E1000D2AC2E /* Asap-BoldItalic.otf */,
+				648657032B727E1000D2AC2E /* Asap-Italic.otf */,
+				648657052B727E1000D2AC2E /* Asap-Regular.otf */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,6 +156,18 @@
 				648656D92B71AD3700D2AC2E /* DataService.swift */,
 			);
 			path = Widgety;
+			sourceTree = "<group>";
+		};
+		648657062B727E5700D2AC2E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				648657092B727E6C00D2AC2E /* Asap-Bold.otf */,
+				6486570A2B727E6C00D2AC2E /* Asap-BoldItalic.otf */,
+				648657082B727E6C00D2AC2E /* Asap-Italic.otf */,
+				648657072B727E6C00D2AC2E /* Asap-Regular.otf */,
+			);
+			name = "New Group";
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,10 +251,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648656F92B727B6000D2AC2E /* Asap-Italic.otf in Resources */,
-				648656FA2B727B6000D2AC2E /* Asap-Bold.otf in Resources */,
-				648656FB2B727B6000D2AC2E /* Asap-Regular.otf in Resources */,
-				648656FC2B727B6000D2AC2E /* Asap-BoldItalic.otf in Resources */,
 				648656BA2B71AC3300D2AC2E /* Preview Assets.xcassets in Resources */,
 				648656B72B71AC3300D2AC2E /* Assets.xcassets in Resources */,
 			);
@@ -255,11 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648657002B727C6D00D2AC2E /* Asap-Regular.otf in Resources */,
 				648656D02B71ACF100D2AC2E /* Assets.xcassets in Resources */,
-				648656FE2B727C6900D2AC2E /* Asap-BoldItalic.otf in Resources */,
-				648656FF2B727C6B00D2AC2E /* Asap-Italic.otf in Resources */,
-				648656FD2B727C5500D2AC2E /* Asap-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
