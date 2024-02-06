@@ -77,6 +77,10 @@
 		648656ED2B726C4A00D2AC2E /* Asap-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Regular.otf"; sourceTree = "<group>"; };
 		648656EE2B726C5200D2AC2E /* Asap-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Italic.otf"; sourceTree = "<group>"; };
 		648656EF2B726C5300D2AC2E /* Asap-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Bold.otf"; sourceTree = "<group>"; };
+		648656F12B7272E700D2AC2E /* Asap-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Italic.otf"; sourceTree = "<group>"; };
+		648656F22B7272E700D2AC2E /* Asap-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Bold.otf"; sourceTree = "<group>"; };
+		648656F32B7272E700D2AC2E /* Asap-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-Regular.otf"; sourceTree = "<group>"; };
+		648656F42B7272E700D2AC2E /* Asap-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Asap-BoldItalic.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,7 @@
 		648656CA2B71ACF000D2AC2E /* Widgety */ = {
 			isa = PBXGroup;
 			children = (
+				648656F02B7272D800D2AC2E /* Fonts */,
 				648656CB2B71ACF000D2AC2E /* WidgetyBundle.swift */,
 				648656CD2B71ACF000D2AC2E /* Widgety.swift */,
 				648656CF2B71ACF100D2AC2E /* Assets.xcassets */,
@@ -173,6 +178,17 @@
 				648656EE2B726C5200D2AC2E /* Asap-Italic.otf */,
 				648656EC2B726C4900D2AC2E /* Asap-BoldItalic.otf */,
 				648656ED2B726C4A00D2AC2E /* Asap-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		648656F02B7272D800D2AC2E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				648656F22B7272E700D2AC2E /* Asap-Bold.otf */,
+				648656F42B7272E700D2AC2E /* Asap-BoldItalic.otf */,
+				648656F12B7272E700D2AC2E /* Asap-Italic.otf */,
+				648656F32B7272E700D2AC2E /* Asap-Regular.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
