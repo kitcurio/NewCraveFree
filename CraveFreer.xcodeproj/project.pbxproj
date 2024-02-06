@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		648656B32B71AC3200D2AC2E /* CraveFreerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648656B22B71AC3200D2AC2E /* CraveFreerApp.swift */; };
+		648656B52B71AC3200D2AC2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648656B42B71AC3200D2AC2E /* ContentView.swift */; };
+		648656B72B71AC3300D2AC2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648656B62B71AC3300D2AC2E /* Assets.xcassets */; };
+		648656BA2B71AC3300D2AC2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648656B92B71AC3300D2AC2E /* Preview Assets.xcassets */; };
+		648656C72B71ACF000D2AC2E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648656C62B71ACF000D2AC2E /* WidgetKit.framework */; };
+		648656C92B71ACF000D2AC2E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 648656C82B71ACF000D2AC2E /* SwiftUI.framework */; };
+		648656CC2B71ACF000D2AC2E /* WidgetyBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648656CB2B71ACF000D2AC2E /* WidgetyBundle.swift */; };
+		648656CE2B71ACF000D2AC2E /* Widgety.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648656CD2B71ACF000D2AC2E /* Widgety.swift */; };
+		648656D02B71ACF100D2AC2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648656CF2B71ACF100D2AC2E /* Assets.xcassets */; };
+		648656D42B71ACF100D2AC2E /* WidgetyExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 648656C42B71ACF000D2AC2E /* WidgetyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		648656DB2B71AD4200D2AC2E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648656D92B71AD3700D2AC2E /* DataService.swift */; };
+		648656E32B71AFC300D2AC2E /* Asap-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656DF2B71AFC300D2AC2E /* Asap-Italic.otf */; };
+		648656E42B71AFC300D2AC2E /* Asap-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656DF2B71AFC300D2AC2E /* Asap-Italic.otf */; };
+		648656E52B71AFC300D2AC2E /* Asap-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656E02B71AFC300D2AC2E /* Asap-Bold.otf */; };
+		648656E62B71AFC300D2AC2E /* Asap-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656E02B71AFC300D2AC2E /* Asap-Bold.otf */; };
+		648656E72B71AFC300D2AC2E /* Asap-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656E12B71AFC300D2AC2E /* Asap-BoldItalic.otf */; };
+		648656E82B71AFC300D2AC2E /* Asap-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656E12B71AFC300D2AC2E /* Asap-BoldItalic.otf */; };
+		648656E92B71AFC300D2AC2E /* Asap-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656E22B71AFC300D2AC2E /* Asap-Regular.otf */; };
+		648656EA2B71AFC300D2AC2E /* Asap-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 648656E22B71AFC300D2AC2E /* Asap-Regular.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		648656D22B71ACF100D2AC2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 648656A72B71AC3200D2AC2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 648656C32B71ACF000D2AC2E;
+			remoteInfo = WidgetyExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		648656D82B71ACF100D2AC2E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				648656D42B71ACF100D2AC2E /* WidgetyExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		648656AF2B71AC3200D2AC2E /* CraveFreer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CraveFreer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		648656B22B71AC3200D2AC2E /* CraveFreerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraveFreerApp.swift; sourceTree = "<group>"; };
+		648656B42B71AC3200D2AC2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		648656B62B71AC3300D2AC2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		648656B92B71AC3300D2AC2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		648656C42B71ACF000D2AC2E /* WidgetyExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetyExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		648656C62B71ACF000D2AC2E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		648656C82B71ACF000D2AC2E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		648656CB2B71ACF000D2AC2E /* WidgetyBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetyBundle.swift; sourceTree = "<group>"; };
+		648656CD2B71ACF000D2AC2E /* Widgety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widgety.swift; sourceTree = "<group>"; };
+		648656CF2B71ACF100D2AC2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		648656D12B71ACF100D2AC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		648656D92B71AD3700D2AC2E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		648656DC2B71ADBF00D2AC2E /* WidgetyExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetyExtension.entitlements; sourceTree = "<group>"; };
+		648656DD2B71ADC900D2AC2E /* CraveFreer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CraveFreer.entitlements; sourceTree = "<group>"; };
+		648656DE2B71AEBE00D2AC2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		648656DF2B71AFC300D2AC2E /* Asap-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Italic.otf"; path = "../../../../../Downloads/asap/Asap-Italic.otf"; sourceTree = "<group>"; };
+		648656E02B71AFC300D2AC2E /* Asap-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Bold.otf"; path = "../../../../../Downloads/asap/Asap-Bold.otf"; sourceTree = "<group>"; };
+		648656E12B71AFC300D2AC2E /* Asap-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-BoldItalic.otf"; path = "../../../../../Downloads/asap/Asap-BoldItalic.otf"; sourceTree = "<group>"; };
+		648656E22B71AFC300D2AC2E /* Asap-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Regular.otf"; path = "../../../../../Downloads/asap/Asap-Regular.otf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		648656AC2B71AC3200D2AC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648656C12B71ACF000D2AC2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648656C92B71ACF000D2AC2E /* SwiftUI.framework in Frameworks */,
+				648656C72B71ACF000D2AC2E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		648656A62B71AC3200D2AC2E = {
+			isa = PBXGroup;
+			children = (
+				648656DC2B71ADBF00D2AC2E /* WidgetyExtension.entitlements */,
+				648656B12B71AC3200D2AC2E /* CraveFreer */,
+				648656CA2B71ACF000D2AC2E /* Widgety */,
+				648656C52B71ACF000D2AC2E /* Frameworks */,
+				648656B02B71AC3200D2AC2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		648656B02B71AC3200D2AC2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				648656AF2B71AC3200D2AC2E /* CraveFreer.app */,
+				648656C42B71ACF000D2AC2E /* WidgetyExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		648656B12B71AC3200D2AC2E /* CraveFreer */ = {
+			isa = PBXGroup;
+			children = (
+				648656DE2B71AEBE00D2AC2E /* Info.plist */,
+				648656DD2B71ADC900D2AC2E /* CraveFreer.entitlements */,
+				648656B22B71AC3200D2AC2E /* CraveFreerApp.swift */,
+				648656B42B71AC3200D2AC2E /* ContentView.swift */,
+				648656B62B71AC3300D2AC2E /* Assets.xcassets */,
+				648656B82B71AC3300D2AC2E /* Preview Content */,
+			);
+			path = CraveFreer;
+			sourceTree = "<group>";
+		};
+		648656B82B71AC3300D2AC2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				648656E02B71AFC300D2AC2E /* Asap-Bold.otf */,
+				648656E12B71AFC300D2AC2E /* Asap-BoldItalic.otf */,
+				648656DF2B71AFC300D2AC2E /* Asap-Italic.otf */,
+				648656E22B71AFC300D2AC2E /* Asap-Regular.otf */,
+				648656B92B71AC3300D2AC2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		648656C52B71ACF000D2AC2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				648656C62B71ACF000D2AC2E /* WidgetKit.framework */,
+				648656C82B71ACF000D2AC2E /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		648656CA2B71ACF000D2AC2E /* Widgety */ = {
+			isa = PBXGroup;
+			children = (
+				648656CB2B71ACF000D2AC2E /* WidgetyBundle.swift */,
+				648656CD2B71ACF000D2AC2E /* Widgety.swift */,
+				648656CF2B71ACF100D2AC2E /* Assets.xcassets */,
+				648656D12B71ACF100D2AC2E /* Info.plist */,
+				648656D92B71AD3700D2AC2E /* DataService.swift */,
+			);
+			path = Widgety;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		648656AE2B71AC3200D2AC2E /* CraveFreer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648656BD2B71AC3300D2AC2E /* Build configuration list for PBXNativeTarget "CraveFreer" */;
+			buildPhases = (
+				648656AB2B71AC3200D2AC2E /* Sources */,
+				648656AC2B71AC3200D2AC2E /* Frameworks */,
+				648656AD2B71AC3200D2AC2E /* Resources */,
+				648656D82B71ACF100D2AC2E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				648656D32B71ACF100D2AC2E /* PBXTargetDependency */,
+			);
+			name = CraveFreer;
+			productName = CraveFreer;
+			productReference = 648656AF2B71AC3200D2AC2E /* CraveFreer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		648656C32B71ACF000D2AC2E /* WidgetyExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648656D52B71ACF100D2AC2E /* Build configuration list for PBXNativeTarget "WidgetyExtension" */;
+			buildPhases = (
+				648656C02B71ACF000D2AC2E /* Sources */,
+				648656C12B71ACF000D2AC2E /* Frameworks */,
+				648656C22B71ACF000D2AC2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetyExtension;
+			productName = WidgetyExtension;
+			productReference = 648656C42B71ACF000D2AC2E /* WidgetyExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		648656A72B71AC3200D2AC2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					648656AE2B71AC3200D2AC2E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					648656C32B71ACF000D2AC2E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 648656AA2B71AC3200D2AC2E /* Build configuration list for PBXProject "CraveFreer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 648656A62B71AC3200D2AC2E;
+			productRefGroup = 648656B02B71AC3200D2AC2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				648656AE2B71AC3200D2AC2E /* CraveFreer */,
+				648656C32B71ACF000D2AC2E /* WidgetyExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		648656AD2B71AC3200D2AC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648656BA2B71AC3300D2AC2E /* Preview Assets.xcassets in Resources */,
+				648656E72B71AFC300D2AC2E /* Asap-BoldItalic.otf in Resources */,
+				648656E32B71AFC300D2AC2E /* Asap-Italic.otf in Resources */,
+				648656E92B71AFC300D2AC2E /* Asap-Regular.otf in Resources */,
+				648656B72B71AC3300D2AC2E /* Assets.xcassets in Resources */,
+				648656E52B71AFC300D2AC2E /* Asap-Bold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648656C22B71ACF000D2AC2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648656EA2B71AFC300D2AC2E /* Asap-Regular.otf in Resources */,
+				648656E42B71AFC300D2AC2E /* Asap-Italic.otf in Resources */,
+				648656D02B71ACF100D2AC2E /* Assets.xcassets in Resources */,
+				648656E62B71AFC300D2AC2E /* Asap-Bold.otf in Resources */,
+				648656E82B71AFC300D2AC2E /* Asap-BoldItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		648656AB2B71AC3200D2AC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648656B52B71AC3200D2AC2E /* ContentView.swift in Sources */,
+				648656B32B71AC3200D2AC2E /* CraveFreerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		648656C02B71ACF000D2AC2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648656DB2B71AD4200D2AC2E /* DataService.swift in Sources */,
+				648656CC2B71ACF000D2AC2E /* WidgetyBundle.swift in Sources */,
+				648656CE2B71ACF000D2AC2E /* Widgety.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		648656D32B71ACF100D2AC2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 648656C32B71ACF000D2AC2E /* WidgetyExtension */;
+			targetProxy = 648656D22B71ACF100D2AC2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		648656BB2B71AC3300D2AC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		648656BC2B71AC3300D2AC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		648656BE2B71AC3300D2AC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CraveFreer/CraveFreer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CraveFreer/Preview Content\"";
+				DEVELOPMENT_TEAM = TUWHXK4PT2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CraveFreer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CraveFree;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.CraveFreer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		648656BF2B71AC3300D2AC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CraveFreer/CraveFreer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CraveFreer/Preview Content\"";
+				DEVELOPMENT_TEAM = TUWHXK4PT2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CraveFreer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CraveFree;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.CraveFreer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		648656D62B71ACF100D2AC2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetyExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUWHXK4PT2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widgety/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widgety;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.CraveFreer.Widgety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		648656D72B71ACF100D2AC2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetyExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TUWHXK4PT2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widgety/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widgety;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = academy.CraveFreer.Widgety;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		648656AA2B71AC3200D2AC2E /* Build configuration list for PBXProject "CraveFreer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648656BB2B71AC3300D2AC2E /* Debug */,
+				648656BC2B71AC3300D2AC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648656BD2B71AC3300D2AC2E /* Build configuration list for PBXNativeTarget "CraveFreer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648656BE2B71AC3300D2AC2E /* Debug */,
+				648656BF2B71AC3300D2AC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648656D52B71ACF100D2AC2E /* Build configuration list for PBXNativeTarget "WidgetyExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648656D62B71ACF100D2AC2E /* Debug */,
+				648656D72B71ACF100D2AC2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 648656A72B71AC3200D2AC2E /* Project object */;
+}
