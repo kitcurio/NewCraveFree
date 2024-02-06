@@ -107,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				648656DC2B71ADBF00D2AC2E /* WidgetyExtension.entitlements */,
+				648656F02B7272D800D2AC2E /* Fonts */,
 				648656B12B71AC3200D2AC2E /* CraveFreer */,
 				648656B62B71AC3300D2AC2E /* Assets.xcassets */,
 				648656CA2B71ACF000D2AC2E /* Widgety */,
@@ -161,7 +162,6 @@
 		648656CA2B71ACF000D2AC2E /* Widgety */ = {
 			isa = PBXGroup;
 			children = (
-				648656F02B7272D800D2AC2E /* Fonts */,
 				648656CB2B71ACF000D2AC2E /* WidgetyBundle.swift */,
 				648656CD2B71ACF000D2AC2E /* Widgety.swift */,
 				648656CF2B71ACF100D2AC2E /* Assets.xcassets */,
