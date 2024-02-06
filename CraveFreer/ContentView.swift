@@ -62,6 +62,7 @@ struct ContentView: View {
 //                        .foregroundStyle(.black)
                         .font(.custom("Asap-Regular", size: 20))
                         .padding(.leading, 32)
+                        
                     Spacer()
                 }
                
@@ -84,6 +85,7 @@ struct ContentView: View {
                     Circle()
                         .foregroundStyle(Color.background)
                         .frame(maxWidth: 245, maxHeight: 245)
+                    
                     
 //                    Circle()
 //                        .fill(gradient)
